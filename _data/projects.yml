@@ -1,0 +1,19 @@
+- name: Sentiment Generator
+  description: A sentiment analysis tool using natural language processing.
+  url: https://github.com/Tro23/Sentiment_Generator
+
+- name: Deep Learning
+  description: Experiments and implementations of deep learning models.
+  url: https://github.com/Tro23/Deep-Learning
+
+- name: Machine Learning
+  description: Comprehensive machine learning tutorials and examples.
+  url: https://github.com/Tro23/Machine-Learning
+
+- name: Wine Glass Interpolation
+  description: A project exploring wine glass image interpolation.
+  url: https://github.com/Tro23/Wine-Glass-Interpolation
+
+- name: Rohit Projects
+  description: Miscellaneous personal projects.
+  url: https://github.com/Tro23/Rohit-Projects
