@@ -56,8 +56,10 @@ body::before {
   margin-bottom: 2rem;
 }
 #header .logo {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+  font-size: 2.5em;
+  color: #FFD700; /* golden sun */
+  margin-bottom: 1em;
+  animation: spin 6s linear infinite;
 }
 #header h1 {
   font-size: 3rem;
@@ -147,6 +149,10 @@ article:target {
 @keyframes fadeIn {
   from { opacity: 0; transform: scale(0.95); }
   to { opacity: 1; transform: scale(1); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 /* Responsive tweaks */
