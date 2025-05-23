@@ -1140,7 +1140,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: url("../../images/main_background.jpg");
-			background-size: auto,
+			background-size: cover,
  256px 256px;
 			background-position: center,
  center;
