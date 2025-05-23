@@ -26,11 +26,18 @@ body:not(.is-preload) #header {
 }
 
 /* Background */
-body {
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
   background: url('../../images/main_background.jpg') no-repeat center center fixed;
   background-size: cover;
+  z-index: -1;
+  opacity: 0.9;
 }
-
 
 /* Wrapper */
 #wrapper {
