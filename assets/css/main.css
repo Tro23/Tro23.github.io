@@ -364,7 +364,7 @@ input, select, textarea {
 		border-radius: 4px;
 		border: 0;
 		display: inline-block;
-		position: relative;
+		position: absolute;
 	}
 
 		.image:before {
@@ -373,7 +373,7 @@ input, select, textarea {
 			background-color: none;
 			border-radius: 4px;
 			content: '';
-			display: block;
+			display: inline-block;
 			height: 100%;
 			left: 0;
 			opacity: 0.75;
@@ -408,7 +408,7 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: block;
+			display: inline-block;
 			margin: 0 0 2rem 0;
 			width: 100%;
 		}
@@ -418,7 +418,7 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
+			display: inline-block;
 			margin: 2.5rem 0;
 			width: 100%;
 		}
